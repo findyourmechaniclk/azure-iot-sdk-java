@@ -1,5 +1,6 @@
 name: "Set Issue Label"
 on:
+  workflow_dispatch:
   issues:
     types: [opened]
 
